@@ -1,8 +1,8 @@
 $(function () {
-	$('.book').click(function () {
-		$('#modal').addClass('show');
+	$('.book').click(function() {
+		$('#modal2').addClass('show');
 	});
-	$('.modal2__overlay').click(function() {
-		$('#modal').removeClass('show')
+	$('.modal2__overlay').click(function (){
+		$('#modal2').removeClass('show');
 	})
 })
